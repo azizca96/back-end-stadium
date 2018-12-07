@@ -102,7 +102,7 @@ router.delete("/:orderId", (req, res, next) => {
     .exec()
     .then(result => {
       res.status(200).json({
-        message: "Order deleted",
+        message: "Order deleteddd",
         request: {
           type: "POST",
           url: "http://localhost:3000/orders",
