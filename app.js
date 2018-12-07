@@ -8,8 +8,8 @@ const mongoose = require("mongoose");
 const userRoutes = require('./api/routes/user');
 const stadiumRoutes = require('./api/routes/stade');
 const ownerRoutes = require('./api/routes/owner');
-const productRoutes = require('./api/routes/products');
-const orderRoutes = require('./api/routes/orders');
+//const productRoutes = require('./api/routes/products');
+//const orderRoutes = require('./api/routes/orders');
 const contactRoutes = require('./api/routes/contact');
 
 
@@ -56,8 +56,8 @@ app.use((req, res, next) => {
 app.use("/user", userRoutes);
 app.use("/stadium", stadiumRoutes);
 app.use("/owner", ownerRoutes);
-app.use("/product", productRoutes);
-app.use("/order", orderRoutes);
+//app.use("/product", productRoutes);
+//app.use("/order", orderRoutes);
 app.use("/contact", contactRoutes);
 
 
